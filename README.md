@@ -1,13 +1,13 @@
 ## Руководство по запуску
 ### Запуск приложения с помощью файла docker-compose.yml (Dockerfile) (frontendApp + backendApp + postgres)
-- Клонируем проект на свой ПК [github.com/ArtemMaluev/DiplomaWork_cloud_storage.git](https://github.com/ArtemMaluev/DiplomaWork_cloud_storage.git);
+- Клонируем проект на свой ПК [https://github.com/Papamozhet1991/Netology_Diploma](https://github.com/Papamozhet1991/Netology_Diploma);
 - Запускаем приложение Docker Desktop;
 - Открываем проект в среде разработки IntelliJ IDEA;
 - Собрать jar файл можно двумя способами:
-    - Запускаем терминал в папке  `/DiplomaWork_cloud_storage` и собираем jar архив с нашим Spring REST приложением с помощью команд:
+    - Запускаем терминал в папке  `/Netology_Diploma` и собираем jar архив с нашим Spring REST приложением с помощью команд:
       ```mvn clean package -Dskiptests``` и ```mvn clean package -Dmaven.test.skip```;
     - Во вкладке Maven активируем иконку `Togger 'Skip Tests' Mode`, в катлоге `Lifecycle` активировать команды `clear` и `package`;
-- После успешной сборки в папке будет находиться jar файл:`DiplomaWork_cloud_storage-0.0.1-SNAPSHOT.jar`;
+- После успешной сборки в папке будет находиться jar файл:`Netology_Diploma-0.0.1-SNAPSHOT.jar`;
 - В терминале выполнить команду по сборке images и containers: ```docker-compose up```;
 - В докере запустятся 3 приложения:
     - backend-server, Java 11 на порту: ```http://localhost:8888```;
