@@ -6,7 +6,7 @@
 - Собрать jar файл можно двумя способами:
     - Запускаем терминал в папке  `/Netology_Diploma` и собираем jar архив с нашим Spring REST приложением с помощью команд:
       ```mvn clean package -Dskiptests``` и ```mvn clean package -Dmaven.test.skip```;
-    - Во вкладке Maven активируем иконку `Togger 'Skip Tests' Mode`, в катлоге `Lifecycle` активировать команды `clear` и `package`;
+    - Во вкладке Maven активируем иконку `Togger 'Skip Tests' Mode`, в каталоге `Lifecycle` активировать команды `clear` и `package`;
 - После успешной сборки в папке будет находиться jar файл:`Netology_Diploma-0.0.1-SNAPSHOT.jar`;
 - В терминале выполнить команду по сборке images и containers: ```docker-compose up```;
 - В докере запустятся 3 приложения:
